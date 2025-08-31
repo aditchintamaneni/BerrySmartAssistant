@@ -1,7 +1,7 @@
 import platform
 
 # Model settings
-OLLAMA_MODEL = "gemma3:1b"
+OLLAMA_MODEL = "gemma3:1b-it-qat"
 WHISPER_MODEL = "tiny.en"
 WHISPER_DEVICE = "cpu"
 
