@@ -1,0 +1,7 @@
+ollama
+faster-whisper
+onnxruntime
+openwakeword
+pygame
+pyaudio
+numpy
