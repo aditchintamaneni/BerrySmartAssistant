@@ -56,7 +56,7 @@ class Functions:
         ]
         return any(pattern in prompt for pattern in time_patterns)
     
-    def get_current_time(self) -> str:
+    def get_current_time(self):
         """return the current time in a speakable format for TTS"""
         curr_time = datetime.now()
         curr_hour = curr_time.hour
@@ -216,7 +216,7 @@ class Functions:
         else:
             return "No active timers or alarms"
     
-    def cancel_timers(self) -> str:
+    def cancel_timers(self):
         """cancel all timers and alarms."""
         with self.lock:
             had_timers = len(self.active_timers) > 0
